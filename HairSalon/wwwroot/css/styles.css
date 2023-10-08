@@ -18,3 +18,7 @@ a {
     font-weight: bold;
     font-size: large;
 }
+
+a:hover {
+    color: rgb(106, 37, 37);
+}

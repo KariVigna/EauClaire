@@ -2,12 +2,12 @@
   Layout = "_Layout";
 }
 
-@model EauClaire.Models.Stylist
-@using EauClaire.Models
+@model HairSalon.Models.Stylist
+@using HairSalon.Models
 
 <h2>Stylist Details</h2>
 <hr />
-<h3>@Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)<h3>
+<h3>@Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)<h3><br>
 
 @if (@Model.Clients.Count == 0)
 {

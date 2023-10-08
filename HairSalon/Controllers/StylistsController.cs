@@ -1,15 +1,15 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using EauClaire.Models;
+using HairSalon.Models;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace EauClaire.Controllers
+namespace HairSalon.Controllers
 {
     public class StylistsController : Controller
     {
-        private readonly EauClaireContext _db;
-        public StylistsController(EauClaireContext db)
+        private readonly HairSalonContext _db;
+        public StylistsController(HairSalonContext db)
         {
             _db = db;
         }
