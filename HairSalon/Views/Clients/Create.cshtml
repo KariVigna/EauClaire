@@ -10,12 +10,9 @@
     @Html.LabelFor(model => model.Name)
     @Html.TextBoxFor(model => model.Name)
     <Br>
-    @* @Html.LabelFor(model => model.Service)
-    @Html.TextBoxFor(model => model.Service)
-    <br> *@
     @Html.LabelFor(model => model.Stylist)
     @Html.DropDownList("StylistId")
-
+    <br>
     <input type="submit" value="Add New Client" class="btn btn-primary" />
 }
 <p>@Html.ActionLink("Add a Stylist", "Create", "Stylists")</p>
